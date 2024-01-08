@@ -162,9 +162,9 @@ section{
 }
 
 .profile-pic{
-    display: flex;
-    height: 400px;
-    width: 400px;
+    display:flex;
+    height: 300px;
+    width: 300px;
     margin:auto 0;
 }
 
@@ -252,6 +252,8 @@ section{
 
 #about{
     position: relative;
+    width: auto;
+    height: auto;
 }
 
 .about-container{
@@ -299,13 +301,15 @@ margin:auto 0;
 
 #experience{
 position: relative;
+width: auto;
+    height: auto;
 }
 
 .experience-sub-title{
     color: rgb(85,85,85);
     font-weight: 600;
-    font-size: 1.75rem;
-    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
 }
 
 .experience-details-container{
@@ -319,7 +323,7 @@ position: relative;
     text-align: center;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 1rem;
     justify-content: space-around;
 }
 
@@ -340,6 +344,8 @@ article.icon{
 
 #projects{
     position: relative;
+    width: auto;
+    height: auto;
 }
 
 .color-container{
@@ -352,6 +358,11 @@ article.icon{
     height: 90%;
 }
 
+.section-project-title{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
 .project-title{
     margin: 1rem;
     color: black;
@@ -364,7 +375,58 @@ article.icon{
 }
 
 .description{
-    margin-top: 1rem;
-    text-wrap: initial;
-    word-wrap:break-word;
+    margin-top: 0.75rem;
+    gap: 1rem;
+}
+
+.project-description{
+    margin-top: 0.75rem;
+    gap: 1rem;
+    text-align: justify;
+    font-size: 13px;
+}
+#contact{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border:rgb(53, 53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    background: rgb(250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p{
+    font-size: larger;
+}
+
+.contact-icon{
+    cursor: default;
+    height: 2rem;
+}
+
+.email-icon{
+    height:2.5rem;
+}
+
+.section-text-contact{
+    margin-top: 3rem;
+    text-align: center;
 }
